@@ -146,6 +146,32 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
   margin-bottom: 30px;
 }
 
+
+
+/* FAQ */
+.shell {
+  background-color: #FFFFFF;
+  border-radius: 1px;
+  margin: 5px;
+  padding: 20px 10px;
+  -webkit-box-shadow: 1px 1px 6px #888;
+  box-shadow: 1px 1px 6px #888;
+  -moz-box-shadow: 1px 1px 6px #888;
+  font-size: 15px;
+  #question-list {
+    margin-bottom: 20px;
+  }
+  h5 {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+}
+
+
+
 /* STICKY FOOTER */
 
 #wrap {
