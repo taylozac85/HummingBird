@@ -22,11 +22,6 @@ body {
   left: 0;
   right: 0;
   z-index: 10;
-  margin-top: 20px;
-  margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-}
-.navbar-wrapper .navbar {
-
 }
 
 /* Remove border and change up box shadow for more contrast */
@@ -40,9 +35,11 @@ body {
 /* Downsize the brand/project name a bit */
 .navbar .brand {
   padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+  font-weight: bold;
+  color: #5A87D8;
 }
 
 /* Navbar links: increase padding for taller navbar */
@@ -57,56 +54,57 @@ body {
 
 
 
-/* CUSTOMIZE THE CAROUSEL
+/* MASTHEAD
 -------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 60px;
+#masthead {
+-webkit-box-shadow: 0 1px 5px 0 #BCBCBC;
+-moz-box-shadow: 0 1px 5px 0 #bcbcbc;
+box-shadow: 0 1px 5px 0 #BCBCBC;
+padding-top: 50px;
+margin-bottom: 40px;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hummingbird-Flying-Near-Flowers-1200x1920.jpg  from http://www.my-walls.net/*/
 }
 
-.carousel .container {
-  position: relative;
-  z-index: 9;
+.hero-unit {
+  opacity: .92;
+  h1 {
+    font-size: 40px;
+  }
 }
 
-.carousel-control {
-  height: 80px;
-  margin-top: 0;
-  font-size: 120px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.4);
-  background-color: transparent;
-  border: 0;
-  z-index: 10;
+.inner {
+  padding: 40px;
+  margin-top: 40px;
+  h1 {
+    color: #616060;
+  }
+  .lead {
+    font-size: 30px;
+    color: #1A4DAA;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 }
 
-.carousel .item {
-  height: 500px;
-}
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
+.btn-success {
+  font-size: 20px;
+  padding: 15px 30px;
+  position: center;
+  letter-spacing: 1px;
 }
 
-.carousel-caption {
-  background-color: transparent;
-  position: static;
-  max-width: 550px;
-  padding: 0 20px;
-  margin-top: 200px;
+.btn-container {
+  text-align: center;
+  margin: auto
 }
-.carousel-caption h1,
-.carousel-caption .lead {
-  margin: 0;
-  line-height: 1.25;
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0,0,0,.4);
-}
-.carousel-caption .btn {
-  margin-top: 10px;
+
+#home {
+  width: 610px;
+  margin: auto;
+  padding: 0px;
 }
 
 
