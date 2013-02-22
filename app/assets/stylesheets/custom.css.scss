@@ -2,7 +2,6 @@
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
 html,
 body {
@@ -10,7 +9,9 @@ body {
   color: #5a5a5a;
 }
 
+.container {
 
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -36,10 +37,9 @@ body {
 .navbar .brand {
   padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
   font-size: 20px;
-  font-weight: bold;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-  font-weight: bold;
+  font-weight: 400;
   color: #5A87D8;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 }
 
 /* Navbar links: increase padding for taller navbar */
@@ -60,7 +60,7 @@ body {
 -webkit-box-shadow: 0 1px 5px 0 #BCBCBC;
 -moz-box-shadow: 0 1px 5px 0 #bcbcbc;
 box-shadow: 0 1px 5px 0 #BCBCBC;
-padding-top: 50px;
+padding-top: 40px;
 margin-bottom: 40px;
 background-position: center;
 background-repeat: no-repeat;
@@ -79,12 +79,12 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
   padding: 40px;
   margin-top: 40px;
   h1 {
-    color: #616060;
+    color: #5A5A5A;
   }
   .lead {
     font-size: 30px;
-    color: #1A4DAA;
-    margin-top: 15px;
+    color: #333;
+    margin-top: 10px;
     margin-bottom: 25px;
   }
 }
@@ -109,34 +109,15 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
 
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .span4 {
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .span4 p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-/* Featurettes
+/* FEATURETTES
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
-  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  padding-top: 20px; 
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
-}
-.featurette-image {
-  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
 }
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
@@ -153,6 +134,16 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+#middle-page {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+#contact-page {
+  margin-bottom: 30px;
 }
 
 /* STICKY FOOTER */
