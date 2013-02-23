@@ -9,7 +9,7 @@
 			<h1>Apartment Cleaning Service</h1>
 			<p class="lead">for Airbnb hosts in San Francisco</p>
 			<div class="btn-container">
-			  <a class="btn btn-large btn-success" href="book">BOOK NOW</a>
+			  <a class="btn btn-large btn-success" href="booking1">BOOK NOW<div id="button-subtext">schedule in under a minute</div></a>
 			</div>
 		  </div>
 		</div>
@@ -41,14 +41,16 @@
     <div class="lead">
       <p>You select a day and time when you need cleaning and tell us a little about your apartment. We provide a price quote and connect your request with our partner service providers. If we find a match, we send you an email asking you to confirm the booking.</p>
       <p>Then all that's left is peace of mind... We clean your place and confirm promptly when the job is done. After the cleaning request is completed, payment is collected.</p>
-      <p>Have questions or suggestions? We would be delighted to hear from you. Please <%= link_to "contact us", "#" %>.</p>
+      <p>Have questions or suggestions? We would be delighted to hear from you. Please <a href="/home#contact">contact us</a>.</p>
     </div>
   </div>
 
   <div class="btn-container" id="middle-page">
-    <a class="btn btn-large btn-success" href="book">BOOK NOW</a>
+    <a class="btn btn-large btn-success" href="booking1">BOOK NOW<div id="button-subtext">schedule in under a minute</div></a>
   </div>
 
+  <div id="contact"></div>
+  
   <hr class="featurette-divider">
 
   <!-- BEGIN CONTACT -->
@@ -59,7 +61,7 @@
   </div> -->
 
   <!-- /END THE FEATURETTES -->
-
+  
   <div class="featurette">
     <h2 class="featurette-heading" id="contact-page">Contact us</h2>
     <div class="lead">
@@ -69,29 +71,46 @@
     </div>
   </div>
 
+  <div id="FAQ"></div>
+
   <hr class="featurette-divider">
 
   <div class="featurette">
     <h2 class="featurette-heading" id="contact-page">Frequently Asked Questions</h2>
     <div class="shell">
       <ul id="question-list">
-        <li><a href="#cleaners">Can I trust the cleaner to show up at the exact right time and not miss anything?</a></li>
-        <li><a href="#home">Do I need to be home when the cleaners arrive?</a></li>
+        <li><a href="#services">What cleaning services do you provide?</a></li>
+        <li><a href="#sheets">How do I return sheets and towels?</a></li>
+        <li><a href="#insured">Are the cleaners bonded, insured and background checked?</a></li>
+        <li><a href="#payment">How do I pay?</a></li>
+        <li><a href="#present">Do I need to be home when the cleaners arrive?</a></li>
         <li><a href="#supplies">Do I need to provide cleaning supplies?</a></li>
-        <li><a href="#insured">Are your cleaners bonded, insured, and background checked?</a></li>
+        <li><a href="#tip">Is tip included?</a></li>
       </ul>
       
       <div class="question-answer">
-        <h5 id="cleaners">Can I trust the cleaner to show up at the exact right time and not miss anything?</h5>
-        <p>Yes. We understand that your reputation as a host is on the line and we take this very seriously. Our cleaners are thorough and understand the needs of Airbnb hosts. We will show up on time and deliver excellent service.</p>
-        <h5 id="cleaners">Can I trust the cleaner to show up at the exact right time and not miss anything?</h5>
-        <p>Yes. We understand that your reputation as a host is on the line and we take this very seriously. Our cleaners are thorough and understand the needs of Airbnb hosts. We will show up on time and deliver excellent service.</p>
-        <h5 id="cleaners">Can I trust the cleaner to show up at the exact right time and not miss anything?</h5>
-        <p>Yes. We understand that your reputation as a host is on the line and we take this very seriously. Our cleaners are thorough and understand the needs of Airbnb hosts. We will show up on time and deliver excellent service.</p>
-        <h5 id="cleaners">Can I trust the cleaner to show up at the exact right time and not miss anything?</h5>
-        <p>Yes. We understand that your reputation as a host is on the line and we take this very seriously. Our cleaners are thorough and understand the needs of Airbnb hosts. We will show up on time and deliver excellent service.</p>
+        <h5 id="services">What cleaning services do you provide?</h5>
+        <p>Every clean comes with standard cleaning. We change the sheets and towels, wipe/vacuum the floors, take out the trash, clean any dishes and the kitchen sink and generally tidy up. We also offer a deep clean with additional services. For additional information see our <a href="/booking1">service list</a>.</p>
+        <h5 id="reliable">Are your cleaners reliable?</h5>
+        <p>Absolutely. We understand that your reputation is on the line as a host, and we take that very seriously. We will show up on time and deliver excellent service. Concerns?  <a href="#contact">Call us</a>. We have your back and we truly care about your experience.</p>
+        <h5 id="sheets">How do I return sheets and towels?</h5>
+        <p>Just let us know when you are ready to return sheets and towels and we will pick them up within 24 hours.</p>
+        <h5 id="insured">Are the cleaners bonded, insured and background checked?</h5>
+        <p>Absolutely. We only parter with professional providers who are bonded and insured. All cleaners have been background-checked.</p>
+        <h5 id="payment">How do I pay?</h5>
+        <p>After the cleaning is complete, we will send you an email with a link for accepting payment. We accept all major credit cards through Stripe.</p>
+        <h5 id="present">Do I need to be home when the cleaners arrive?</h5>
+        <p>Nope. Just let us know how to get in.</p>
+        <h5 id="supplies">Do I need to provide cleaning supplies?</h5>
+        <p>No. We come with our own. However, if you have supplies you would prefer we use, that is no problem.</p>
+        <h5 id="tip">Is tip included?</h5>
+        <p>Yep! No need to tip.</p>
       </div>
     </div>
+  </div>
+
+  <div class="btn-container" id="middle-page">
+    <a class="btn btn-large btn-success" href="booking1">BOOK NOW<div id="button-subtext">schedule in under a minute</div></a>
   </div>
 
   <hr class="featurette-divider">  

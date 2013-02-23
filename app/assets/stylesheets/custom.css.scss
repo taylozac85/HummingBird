@@ -7,6 +7,7 @@ html,
 body {
   height: 100%;
   color: #5a5a5a;
+  padding-top: 0px;
 }
 
 .container {
@@ -27,6 +28,7 @@ body {
 
 /* Remove border and change up box shadow for more contrast */
 .navbar .navbar-inner {
+  padding: 0px;
   border: 0;
   -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
      -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
@@ -35,8 +37,8 @@ body {
 
 /* Downsize the brand/project name a bit */
 .navbar .brand {
-  padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-  font-size: 20px;
+  padding: 14px 34px 16px; /* Increase vertical padding to match navbar links */
+  font-size: 24px;
   font-weight: 400;
   color: #5A87D8;
   text-shadow: 0 -1px 0 rgba(0,0,0,.5);
@@ -90,8 +92,8 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
 }
 
 .btn-success {
-  font-size: 20px;
-  padding: 15px 30px;
+  font-size: 22px;
+  padding: 15px 20px;
   position: center;
   letter-spacing: 1px;
 }
@@ -99,6 +101,12 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
 .btn-container {
   text-align: center;
   margin: auto
+}
+
+#button-subtext {
+  margin-top: 5px;
+  font-size: 14px;
+  font-color: gray;
 }
 
 #home {
@@ -150,19 +158,18 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
 
 /* FAQ */
 .shell {
-  background-color: #FFFFFF;
-  border-radius: 1px;
-  margin: 5px;
-  padding: 20px 10px;
+  padding: 25px;
+  border-radius: 3px;
+  background-color: #EEE;
   -webkit-box-shadow: 1px 1px 6px #888;
-  box-shadow: 1px 1px 6px #888;
   -moz-box-shadow: 1px 1px 6px #888;
-  font-size: 15px;
+  box-shadow: 1px 1px 6px #888;
+  margin-bottom: 20px;
   #question-list {
     margin-bottom: 20px;
   }
   h5 {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 3px;
   }
   p {
@@ -170,6 +177,80 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
   }
 }
 
+
+
+/* BOOKING FORM */
+
+.booking-form {
+  padding-top: 80px;
+}
+
+.contact-box {
+  padding: 5px 20px;
+  border-radius: 3px;
+  background-color: #EEE;
+  -webkit-box-shadow: 1px 1px 6px #888;
+  -moz-box-shadow: 1px 1px 6px #888;
+  box-shadow: 1px 1px 6px #888;
+  h3 {
+    margin-bottom: 0px;
+  }
+}
+
+#every-clean {
+  margin-top: 20px;
+  padding: 5px 20px;
+  border-radius: 3px;
+  background-color: #EEE;
+  -webkit-box-shadow: 1px 1px 6px #888;
+  -moz-box-shadow: 1px 1px 6px #888;
+  box-shadow: 1px 1px 6px #888;
+  h3 {
+    margin-bottom: 0px;
+  }
+}
+
+.booking-questions {
+  padding: 5px 20px;
+  border-radius: 3px;
+  background-color: #EEE;
+  -webkit-box-shadow: 1px 1px 6px #888;
+  -moz-box-shadow: 1px 1px 6px #888;
+  box-shadow: 1px 1px 6px #888;
+  margin-bottom: 20px; 
+}
+
+.head-prompt {
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 10px;
+    h3 {
+      margin-top: 0px;
+    }
+  }
+
+.answer {
+  font-size: 16px;
+}
+
+.answer-sub-lead {
+  font-size: 16px;
+}
+
+.answer-sub {
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+#special-offer {
+  padding-left: 25px;
+  color: #5A87D8;
+  font-size: 16px;
+}
+
+.next-step {
+  margin-top: 10px;
+  padding: 20px;
+}
 
 
 /* STICKY FOOTER */
