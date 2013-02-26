@@ -6,7 +6,7 @@
 html,
 body {
   height: 100%;
-  color: #5a5a5a;
+  color: #272727;
   padding-top: 0px;
 }
 
@@ -59,15 +59,15 @@ body {
 /* MASTHEAD
 -------------------------------------------------- */
 #masthead {
--webkit-box-shadow: 0 1px 5px 0 #BCBCBC;
--moz-box-shadow: 0 1px 5px 0 #bcbcbc;
-box-shadow: 0 1px 5px 0 #BCBCBC;
-padding-top: 40px;
-margin-bottom: 40px;
-background-position: center;
-background-repeat: no-repeat;
-height: 400px;
-background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hummingbird-Flying-Near-Flowers-1200x1920.jpg  from http://www.my-walls.net/*/
+  -webkit-box-shadow: 0 1px 5px 0 #BCBCBC;
+     -moz-box-shadow: 0 1px 5px 0 #bcbcbc;
+          box-shadow: 0 1px 5px 0 #BCBCBC;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hummingbird-Flying-Near-Flowers-1200x1920.jpg  from http://www.my-walls.net/*/
 }
 
 .hero-unit {
@@ -106,7 +106,6 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
 #button-subtext {
   margin-top: 5px;
   font-size: 14px;
-  font-color: gray;
 }
 
 #home {
@@ -150,21 +149,40 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
     margin-bottom: 0px;
 }
 
+.services-provided {
+  margin: 30px 10px;
+  padding: 15px 25px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 6px #888;
+     -moz-box-shadow: 1px 1px 6px #888;
+          box-shadow: 1px 1px 6px #888;
+}
+
+.services-head {
+  color: #333;
+}
+
+.checkmark {
+  padding-right: 10px;
+}
+
 #contact-page {
   margin-bottom: 30px;
 }
 
 
 
-/* FAQ */
+
+
+/* FAQ
+------------------------- */
 .shell {
+  margin: 30px 10px;
   padding: 25px;
   border-radius: 3px;
-  background-color: #EEE;
   -webkit-box-shadow: 1px 1px 6px #888;
-  -moz-box-shadow: 1px 1px 6px #888;
-  box-shadow: 1px 1px 6px #888;
-  margin-bottom: 20px;
+     -moz-box-shadow: 1px 1px 6px #888;
+          box-shadow: 1px 1px 6px #888;
   #question-list {
     margin-bottom: 20px;
   }
@@ -179,82 +197,62 @@ background-image: url(HB4.jpg); /* http://www.my-walls.net/wallpapers/2012/10/Hu
 
 
 
-/* BOOKING FORM */
-
+/* BOOKING FORM
+------------------------- */
 .booking-form {
-  padding-top: 80px;
-}
-
-.contact-box {
-  padding: 5px 20px;
+  margin-top: 80px;
+  padding: 30px;
   border-radius: 3px;
-  background-color: #EEE;
+  background-color: #FFF;
   -webkit-box-shadow: 1px 1px 6px #888;
-  -moz-box-shadow: 1px 1px 6px #888;
-  box-shadow: 1px 1px 6px #888;
-  h3 {
-    margin-bottom: 0px;
-  }
+     -moz-box-shadow: 1px 1px 6px #888;
+          box-shadow: 1px 1px 6px #888;
 }
 
-#every-clean {
-  margin-top: 20px;
-  padding: 5px 20px;
-  border-radius: 3px;
+
+
+/* SIGN-IN
+------------------------- */
+.form-signin {
+  max-width: 300px;
+  margin: 100px auto 20px;
+  padding: 19px 29px 69px;
   background-color: #EEE;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
   -webkit-box-shadow: 1px 1px 6px #888;
-  -moz-box-shadow: 1px 1px 6px #888;
-  box-shadow: 1px 1px 6px #888;
-  h3 {
-    margin-bottom: 0px;
-  }
+     -moz-box-shadow: 1px 1px 6px #888;
+          box-shadow: 1px 1px 6px #888;
 }
 
-.booking-questions {
-  padding: 5px 20px;
-  border-radius: 3px;
-  background-color: #EEE;
-  -webkit-box-shadow: 1px 1px 6px #888;
-  -moz-box-shadow: 1px 1px 6px #888;
-  box-shadow: 1px 1px 6px #888;
-  margin-bottom: 20px; 
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
 }
 
-.head-prompt {
-    border-bottom: 1px solid #FFF;
-    margin-bottom: 10px;
-    h3 {
-      margin-top: 0px;
-    }
-  }
-
-.answer {
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
   font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
 }
 
-.answer-sub-lead {
-  font-size: 16px;
+#sign-in-button {
+  float: left;
+  margin-top: 5px;
 }
 
-.answer-sub {
-  padding-left: 25px;
-  font-size: 16px;
-}
-
-#special-offer {
-  padding-left: 25px;
-  color: #5A87D8;
-  font-size: 16px;
-}
-
-.next-step {
-  margin-top: 10px;
-  padding: 20px;
+#new-sign-up {
+  padding: 13px 10px;
 }
 
 
-/* STICKY FOOTER */
 
+/* STICKY FOOTER
+------------------------- */
 #wrap {
     min-height: 100%;
     height: auto !important;
