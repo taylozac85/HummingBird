@@ -9,6 +9,8 @@ Hummingbird::Application.routes.draw do
   match "/booking5" => "static_pages#booking5"
   match "/sign-in" => "static_pages#sign_in"
 
+  match "/booking1_temp" => "static_pages#booking1_temp"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -2,40 +2,56 @@
 
 <div class="container">
   <div class="booking-form">
-	<div class="booking-container-right pull-right span4">  
-	  
-	  <!-- BEGIN CONTACT BOX -->
-
-	  <div class="contact-box">
-	    <div class="head-prompt">
-	      <h3>Questions?</h3>
-	    </div>
-	    <p>Email <a href="mailto:team@joinhummingbird.com">team@joinhummingbird.com</a> or call 781-307-7431</p>
-	  </div>
-
-	  <!-- /END CONTACT BOX -->
-	
-	</div> <!-- /end booking-container-right -->
-
-	<!-- BEGIN BOOKING QUESTIONS -->
-
-	<div class="booking-questions pull-left span7">
-	  <div class="head-prompt">
-	  	<h3>When?</h3>
-	  </div>
-	  <p>To add calendar or date and time select</p>
-	</div>
-
-	<div class="booking-questions pull-left span7">
-	  <div class="head-prompt">
-	  	<h3>Where?</h3>
-	  </div>
-	  <p>To add address box with autofill. Inputs for address and apt #</p>
-	</div>
-	<a class="next-step btn btn-large btn-success span5 offset1" href="booking3">NEXT STEP</a>
-
-	<!-- /END BOOKING QUESTIONS -->
-
-  </div> <!-- /end booking-form -->
-  <hr class="featurette-divider span12">
-</div> <!-- /end container -->
+    <div class="row-fluid">
+      <div class="span7">
+        <div class="booking-question">
+          <h3>HummingBird Sheets & Towels?</h3>
+          <div class="booking-container">
+            <p>We provide hotel quality sheets and towels that have been washed with green products to ensure maximum comfort for your guests.   <a>more</a></p>
+            <div class="row-fluid booking-selector">
+              <button class="btn btn-large btn-primary booking-btn pull-left">Yes</button>
+              <button class="btn btn-large booking-btn pull-left">No</button>
+            </div>
+            <div class="row-fluid sheets booking-lead" id="guest">
+              <div class="span4">How many guests?</div>
+              <div class="span8">
+                <a class="btn btn-large btn-primary btn-guests">1</a>
+                <a class="btn btn-large btn-guests">2</a>
+                <a class="btn btn-large btn-guests">3</a>
+                <a class="btn btn-large btn-guests">4</a>
+                <a class="btn btn-large btn-guests">5</a>
+                <a class="btn btn-large btn-guests">6</a>
+              </div>
+            </div>
+            <div class="row-fluid sheets booking-lead">
+              <div>Sheet requirements:</div>
+              <input id="beds-input" type="number" placeholder="0"><span id="beds-size">King</span></input>
+              <input id="beds-input" type="number" placeholder="0"><span id="beds-size">Queen</span></input>
+              <input id="beds-input" type="number" placeholder="0"><span id="beds-size">Double</span></input>
+              <input id="beds-input" type="number" placeholder="0"><span id="beds-size">Single</span></input>
+            </div>
+          </div>
+        </div>
+        <div class="booking-question">
+          <h3>How many bedrooms?</h3>
+          <div class="booking-container" id="bedroom-selector">
+            <div class="row-fluid">
+              <a class="btn btn-large btn-primary btn-bedrooms">1</a>
+              <a class="btn btn-large btn-bedrooms">2</a>
+              <a class="btn btn-large btn-bedrooms">3</a>
+              <a class="btn btn-large btn-bedrooms">4</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="span4 offset1">
+        <div class="pull-right">
+          <div class="total">Total: $30.00</div>
+        </div>
+        <a class="btn btn-large btn-success span12" id="next-step" href="booking3">NEXT STEP</a>
+        <div class="hb-logo">
+          <img src="/assets/hummingbird_logo.png" width="150" height="150">
+        </div>
+    </div>
+  </div>
+</div>

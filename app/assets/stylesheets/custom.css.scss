@@ -200,6 +200,7 @@ body {
 /* BOOKING FORM
 ------------------------- */
 .booking-form {
+  position: relative;
   margin: 90px 20px 100px 20px;
   padding: 10px 30px;
   border-radius: 3px;
@@ -218,7 +219,7 @@ body {
 }
 
 .booking-container {
-    padding: 20px 10px 10px 20px;
+    padding: 20px 10px 20px 20px;
     margin-bottom: 20px;
     border-radius: 6px;
     background-color: #FAFAFA;
@@ -231,25 +232,29 @@ body {
 
 .booking-selector {
    margin-top: 15px;
-   line-height: 38px;
+   line-height: 44px;
 }
 
-.top-booking-selector {
-   line-height: 38px;
+.sheets {
+   margin-top: 15px;
+   line-height: 44px;
 }
+
+#guest {
+    margin-top: 25px;
+   }
 
 #guests-selector {
   margin-top: 25px;
 }
 
 .booking-lead {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .booking-btn {
   margin-right: 4px;
-  padding: 9px 12px;
-
+  padding: 12px 15px;
 }
 
 .small-text {
@@ -267,6 +272,50 @@ body {
   line-height: 14px;
   margin-bottom: 0px;
 }
+}
+
+.booking1-next-step {
+  padding-top: 100px;
+}
+
+.booking-sub-text {
+  font-size: 16px;
+}
+
+.btn-bedrooms {
+  padding: 15px 20px;
+  margin-right: 5px;
+}
+
+#bedroom-selector {
+  padding: 15px 20px;
+}
+
+#beds-input {
+  width: 30px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+#beds-size {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.total {
+  padding: 150px 5px 20px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#multiple-guests {
+  line-height: 22px;
+}
+
+.hb-logo {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
 }
 
 /* SIGN-IN
