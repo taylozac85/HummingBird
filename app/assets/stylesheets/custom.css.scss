@@ -274,8 +274,8 @@ body {
 }
 }
 
-.booking1-next-step {
-  padding-top: 100px;
+#booking-next-step {
+  margin-top: 100px;
 }
 
 .booking-sub-text {
@@ -333,10 +333,28 @@ body {
 
 #timeslot {
   padding: 5px 15px;
+  width: 60px;
   margin-bottom: 5px;
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+#btn-key {
+  padding: 12px 20px;
+}
+
+#key-hide {
+  padding: 11px 6px;
+  margin-bottom: 0px;
+  width: 150px;
+}
+
+input[type="text"] {
+  padding: 21px 6px;
+  margin-bottom: 0px;
+}
+
+
 
 
 
