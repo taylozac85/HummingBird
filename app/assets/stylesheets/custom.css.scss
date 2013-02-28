@@ -219,7 +219,7 @@ body {
 }
 
 .booking-container {
-  padding: 20px 10px 20px 20px;
+  padding: 20px;
   margin-bottom: 20px;
   border-radius: 6px;
   background-color: #FAFAFA;
@@ -258,7 +258,9 @@ body {
 }
 
 .small-text {
+  line-height: 50px;
   margin-left: 12px;
+  margin-bottom: 0px;
   color: #962F2F;
   font-size: 14px;
 }
@@ -275,7 +277,7 @@ body {
 }
 
 #booking-next-step {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .booking-sub-text {
@@ -283,7 +285,7 @@ body {
 }
 
 .btn-bedrooms {
-  padding: 15px 20px;
+  padding: 13px 18px;
   margin-right: 5px;
 }
 
@@ -300,12 +302,6 @@ body {
 #beds-size {
   padding-left: 5px;
   padding-right: 10px;
-}
-
-.total {
-  padding: 100px 5px 20px 0px;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 #multiple-guests {
@@ -340,13 +336,8 @@ body {
 }
 
 #btn-key {
-  padding: 12px 20px;
-}
-
-#key-hide {
-  padding: 11px 6px;
-  margin-bottom: 0px;
-  width: 150px;
+  padding: 12px 15px;
+  width: 139px;
 }
 
 input[type="text"] {
@@ -354,7 +345,24 @@ input[type="text"] {
   margin-bottom: 0px;
 }
 
+.get-in {
+  margin-top: 15px;
+}
 
+#special-instructions {
+  padding: 10px 10px 130px 10px;
+  vertical-align: top;
+  background-color: white;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;  
+}
 
 
 
@@ -396,9 +404,7 @@ input[type="text"] {
   padding: 13px 10px;
 }
 
-#next-step {
-  margin-left: 0%;
-}
+
 
 /* STICKY FOOTER
 ------------------------- */
