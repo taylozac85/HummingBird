@@ -2,19 +2,8 @@ Hummingbird::Application.routes.draw do
   root to: "static_pages#home"
 
   match "/home" => "static_pages#home"
-  match "/booking1" => "static_pages#booking1"
-  match "/booking2" => "static_pages#booking2"
-  match "/booking3" => "static_pages#booking3"
-  match "/booking4" => "static_pages#booking4"
-  match "/booking5" => "static_pages#booking5"
-  match "/booking6" => "static_pages#booking6"
-  match "/sign-in" => "static_pages#sign_in"
-
-  match "/booking1_temp" => "static_pages#booking1_temp"
-  match "/booking2_temp" => "static_pages#booking2_temp"
-  match "/booking3_temp" => "static_pages#booking3_temp"
-  match "/booking4_temp" => "static_pages#booking4_temp"
-  match "/booking5_temp" => "static_pages#booking5_temp"
+  match "/schedule1" => "static_pages#schedule1"
+  match "/schedule2" => "static_pages#schedule2"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
